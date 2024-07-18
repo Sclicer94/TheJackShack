@@ -133,7 +133,6 @@ h1 {
 
 #s3 h2{
     padding-top: 1rem;
-    font-size: 4rem;
     font-weight: 800;
 
 }
@@ -184,7 +183,6 @@ h1 {
 }
 
 #s4 h2 {
-    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
     color: var(--red);
@@ -235,7 +233,6 @@ h1 {
 
 #s6 button{
     font-size: xx-large;
-    filter:none;
     padding: 2rem;
 }
 
@@ -259,3 +256,88 @@ footer div span{
     font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 768px) {
+    section {
+        height: 100%;
+    }
+    #s1, #s2, #s3, #s4, #s6 {
+      padding: 4rem;
+    }
+
+
+  
+    #intro, #s2text, #points {
+      text-align: center;
+    }
+  
+    h1, h2{
+      font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    #s2{
+        flex-direction: column;
+    }
+
+    #s2imgs{
+        flex-direction: row;
+    }
+  
+    #points {
+      flex-direction: column;
+    }
+
+    #s2text{
+        align-items: center;
+    }
+  
+    #s2 img{
+      width: 50%;
+      height: auto;
+    }
+
+    .point {
+        padding: 1rem;
+    }
+
+    .point img{
+        height:3rem;
+        width: auto;
+    }
+
+    #s4{
+        justify-content: space-around;
+    }
+  
+    #s4 div {
+      max-width: 100%;
+      margin-left: 1rem;
+    }
+
+
+    #s4 ul{
+        font-size: smaller;
+    }
+  
+    #s6 button {
+      font-size: 1rem;
+    }
+  
+    footer {
+      padding: 2rem;
+      flex-direction: column;
+    }
+  
+    footer span {
+      font-size: 1rem;
+    }
+
+    footer div span{
+        font-size: 0.8rem;
+    }
+
+
+  }
