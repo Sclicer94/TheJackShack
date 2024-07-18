@@ -27,7 +27,7 @@ html{
 }
 
 button {
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     border: none;
     background-color: var(--red);
     color: var(--white);
@@ -261,11 +261,9 @@ footer div span{
         height: 100%;
     }
     #s1, #s2, #s3, #s4, #s6 {
-      padding: 4rem;
+      padding: 0.5rem 0;
     }
 
-
-  
     #intro, #s2text, #points {
       text-align: center;
     }
@@ -280,6 +278,14 @@ footer div span{
 
     #s2{
         flex-direction: column;
+    }
+
+    #s2 p {
+        text-align: justify;
+    }
+
+    #s2 button{
+        padding: 1rem;
     }
 
     #s2imgs{
@@ -311,6 +317,8 @@ footer div span{
     #s4{
         justify-content: space-around;
     }
+
+
   
     #s4 div {
       max-width: 100%;
@@ -320,6 +328,11 @@ footer div span{
 
     #s4 ul{
         font-size: smaller;
+    }
+
+    #s6{
+        font-size: 1.5rem;
+        padding: 2rem;
     }
   
     #s6 button {
